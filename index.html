@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>State DataTables</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.jqueryui.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+  </head>
+  <body>
+
+    <!--//we need three div tags -->
+    <!--//emmit package not installed sorry -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+      <table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- javascript files here(inside the body tag and as a last elements -->
+
+    <!-- ctrl + / to add commnets -->
+
+    <script type="text/javascript" scr="js/jquery.js"></script>
+    <script type="text/javascript" scr="js/jquery.dataTables.js"></script>
+    <!--jquery dataTables should be in the before dataTables bootstrap js file-->
+    <script type="text/javascript" scr="js/bootstrap.js"></script>
+    <script type="text/javascript" scr="js/dataTables.bootstrap.js"></script>
+    <!--//our custome style should be in the last-->
+    <script type="text/javascript" scr="js/script.js"></script>
+  </body>
+</html>
